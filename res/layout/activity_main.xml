@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.sunnyrao.guaguaka.view.GuaGuaKa
+        android:id="@+id/id_guaguaka"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        custom:text="￥500,0000"
+        custom:textColor="#ff00f0"
+        custom:textSize="30sp" />
+
+</RelativeLayout>
